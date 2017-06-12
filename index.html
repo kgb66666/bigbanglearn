@@ -10,17 +10,21 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/scrolling-nav.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="index.html" class="logo">Theory</a>
+					<a href="index.html" class="logo">BigbangLab</a>
 					<nav id="nav">
-						<a href="index.html">Home</a>
-						<a href="generic.html">Generic</a>
-						<a href="elements.html">Elements</a>
+						<a class="page-scroll" href="#one">自學元素</a>
+						<a class="page-scroll" href="#two">自學課程</a>
+						<a class="page-scroll" href="#three">關於講師</a>
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
@@ -28,10 +32,8 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<h1>Welcome to Theory</h1>
-				<p>A free responsive HTML5 website template by TEMPLATED.</p>
 				<div class="fullscreen-bg">
-				    <video loop muted autoplay poster="images/" class="fullscreen-bg__video">  
+				    <video muted autoplay poster="images/" class="fullscreen-bg__video">  
 				        <source src="images/opening.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -39,23 +41,23 @@
 			</section>
 
 		<!-- One -->
-			<section id="one" class="wrapper">
+			<section id="one" class="wrapper style2">
 				<div class="inner">
 					<div class="flex flex-3">
 						<article>
 							<header>
-								<h3>Magna tempus sed amet<br /> aliquam veroeros</h3>
+								<h3>自造工具<br /> 雷射切割機,3D列印機</h3>
 							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+							<p>需要雷射切割機嗎? 需要3D列印機嗎?<br />BigbangLab借給你</p>
 							<footer>
 								<a href="#" class="button special">More</a>
 							</footer>
 						</article>
 						<article>
 							<header>
-								<h3>Interdum lorem pulvinar<br /> adipiscing vitae</h3>
+								<h3>自學課程<br /> Arduino, python, 電子電路, 吉他, 音樂, 電影, 剪輯</h3>
 							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+							<p>最豐富的課程, 從理工到藝術的超多樣化教學內容</p>
 							<footer>
 								<a href="#" class="button special">More</a>
 							</footer>
@@ -196,6 +198,8 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/scrolling-nav.js"></script>
+			<script src="assets/js/jquery.easing.min.js"></script>
 
 	</body>
 </html>
